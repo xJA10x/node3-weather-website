@@ -22,22 +22,22 @@ JavaScript file
 // Second Method runs when the data is available.
 // Makes http request.
 // Fetch data from the url below and then run the callback functon.
-fetch('http://puzzle.mead.io/puzzle').then((response) => {
+//fetch('http://puzzle.mead.io/puzzle').then((response) => {
 
   // Method call
   // using object name.
   // Takes no parameters.
   // Second method is a callback function that runs when the json data has arrived.
   // Parses json data.
-  response.json().then((data) => {
+  //response.json().then((data) => {
 
     // Outputs to the console.
-    console.log(data);
+    //console.log(data);
 
 
-  })
+  //})
 
-});
+//});
 
 
 /*************************************
