@@ -156,7 +156,7 @@ Setup static directory to serve
 // serve up a directory. It
 // takes the path to the folder
 // we want to serve up. In this case,
-// it loads index.html, about.html, and help.html, css, img, and
+// it loads index.html, about.html, help.html, css, img, and
 // javascript files.
 app.use(express.static(publicDirectory));
 
