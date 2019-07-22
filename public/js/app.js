@@ -136,7 +136,7 @@ weatherForm.addEventListener('submit', (e) => {
   // Fetch data from the url below which is the weather API,
   // adds location entered by the user in the form at the end of the url,
   // and then runs the callback functon.
-  fetch('http://localhost:3000/weather?address=' + location).then((response) => {
+  fetch('/weather?address=' + location).then((response) => {
 
     // Method call
     // using object name.

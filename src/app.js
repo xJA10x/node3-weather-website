@@ -81,6 +81,10 @@ const forecast = require('./utils/forecast');
 // in the variable app.
 // Starts express app.
 const app = express();
+// Sets port equal to the enviroment variable value in
+// heroku to litsen for request.
+// Stores output in the variable port.
+const port = process.env.PORT || 3000;
 
 /***************************
 
@@ -455,10 +459,10 @@ app.get('*', (req, res) => {
 // The second one is a callback function
 // that will run when the server is up
 // and running.
-app.listen(3000, () => {
+app.listen(port, () => {
 
   // Lets the person know that
   // the server started correcly.
-  console.log('Server is up on port 3000');
+  console.log('Server is up on port' + port);
 
 });
