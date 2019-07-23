@@ -247,7 +247,7 @@ app.get('/help', (req, res) => {
   res.render('help', {
 
     // Initializes properties.
-    helpText: 'This is some helpful text.',
+    helpText: 'Thank you for checking out this weather app.',
     title: 'Help',
     name: 'Jhoset Ceron'
 
