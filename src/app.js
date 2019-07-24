@@ -187,7 +187,7 @@ app.get('', (req, res) => {
   res.render('index', {
 
     // Initializes properties.
-    title: 'Weather',
+    title: 'Check The Weather',
     name: 'Jhoset Ceron'
 
   });
