@@ -247,7 +247,7 @@ app.get('/help', (req, res) => {
   res.render('help', {
 
     // Initializes properties.
-    helpText: 'Thank you for checking out this weather app.',
+    helpText: 'This site was created using Node.js and express. Git and github for commiting changes and heroku for deploying the web app a production server. Thank you for checking out this website.',
     title: 'Help',
     name: 'Jhoset Ceron'
 
